@@ -1,0 +1,23 @@
+一、common目录
+	1.contants是处理项目路径模块
+	2.handle_data处理excel用例中需要替换的参数(注意存放临时变量时int类型应转换成str类型存放)
+	3.handle_db是连接数据库（mysql）处理需要进行数据库校验的模块
+	4.handle_request是用来发送请求的（支持cookie和token）
+	5.handle_webservice是用来发送webservice类型接口的请求
+	6.myconfig是读取和写入配置文件的模块
+	7.mylogger是输出日志模块
+	8.readexcel读取用例数据的模块
+	9.send_email是发送测试邮件模块
+二、comf配置文件
+	1.日志等级和测试报告名称，项目地址，账号，和数据库连接信息修改的地方
+三、data存放用例数据
+四、library存放一些下载的第三方库
+五、log存放日志
+六、reports存放测试报告
+七、testcases存放用例类的模块
+run.py测试运行程序
+
+
+
+需要安装的第三方库
+os
